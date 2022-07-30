@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="/Wedding/libs/katex/katex.min.css">
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
      
-   <link rel="stylesheet" href="/Wedding/libs/highlight/styles/github.min.css">
+   <link rel="stylesheet" href="/libs/highlight/styles/github.min.css">
    
-  <link rel="stylesheet" href="/Wedding/css/franklin.css">
+  <link rel="stylesheet" href="/css/franklin.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" type="text/css">
-<link rel="stylesheet" href="/Wedding/css/font-awesome.min.css">
-<link rel="stylesheet" href="/Wedding/css/celeste.min.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/celeste.min.css">
 
-<link rel="icon" type="image/png" sizes="192x192" href="/Wedding/assets/favicon.png">
-<link rel="shortcut icon" href="/Wedding/assets/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/Wedding/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon.png">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/apple-touch-icon.png">
 
    <title>Franklin Example</title>  
 </head>
@@ -22,11 +22,11 @@
   <header>
 <nav class="nav-main">
   <ul>
-    <li class="hvr-underline-reveal"><a href="/Wedding/">Home</a></li>
-    <li class="hvr-underline-reveal"><a href="/Wedding/menu1/">Code blocks</a></li>
-    <li class="logo"><a class="hvr-ripple-out" href="/Wedding/">C</a></li>
-    <li class="hvr-underline-reveal"><a href="/Wedding/menu2/">More goodies</a></li>
-    <li class="hvr-underline-reveal"><a href="/Wedding/menu3/">Tags</a></li>
+    <li class="hvr-underline-reveal"><a href="/">Home</a></li>
+    <li class="hvr-underline-reveal"><a href="/menu1/">Code blocks</a></li>
+    <li class="logo"><a class="hvr-ripple-out" href="/">C</a></li>
+    <li class="hvr-underline-reveal"><a href="/menu2/">More goodies</a></li>
+    <li class="hvr-underline-reveal"><a href="/menu3/">Tags</a></li>
   </ul>
 </nav>
 </header>
@@ -127,7 +127,7 @@ end</code></pre>
 
 <div class="row">
   <div class="container">
-    <img class="left" src="/Wedding/assets/rndimg.jpg">
+    <img class="left" src="/assets/rndimg.jpg">
     <p>
     Marine iguanas are truly splendid creatures. They're found on the Gálapagos islands, have skin that basically acts as a solar panel, can swim and may have the ability to adapt their body size depending on whether there's food or not.
     </p>
@@ -140,18 +140,18 @@ end</code></pre>
 
 <p><strong>Note 1</strong>: again, entire such blocks can be made into latex-like commands via <code>\newcommand&#123;\mynewblock&#125;&#91;1&#93;&#123;...&#125;</code>.</p>
 <p><strong>Note 2</strong>: whatever is in a raw HTML block is <em>not</em> further processed &#40;so you can&#39;t have LaTeX in there for instance&#41;. A partial way around this is to use <code>@@...</code> blocks which <em>will</em> be recursively parsed. The following code gives the same result as above with the small difference that there is LaTeX being processed in the inner div.</p>
-<div class="row"><div class="container"><div class="left"><img src="/Wedding/assets/rndimg.jpg" alt="" /></div></div>
+<div class="row"><div class="container"><div class="left"><img src="/assets/rndimg.jpg" alt="" /></div></div>
 <p>Marine iguanas are <strong>truly splendid</strong> creatures. They&#39;re not found in equations like \(\exp(-i\pi)+1\). But they&#39;re still quite cool. 
 <div style="clear: both"></div>
 </p></div>
 <h2 id="pages_and_structure"><a href="#pages_and_structure" class="header-anchor">Pages and structure</a></h2>
 <p>Here are a few empty pages connecting to the menu links to show where files can go and the resulting paths. &#40;It&#39;s probably best if you look at the source folder for this&#41;.</p>
 <ul>
-<li><p><a href="/Wedding/menu1/">menu 1</a></p>
+<li><p><a href="/menu1/">menu 1</a></p>
 </li>
-<li><p><a href="/Wedding/menu2/">menu 2</a></p>
+<li><p><a href="/menu2/">menu 2</a></p>
 </li>
-<li><p><a href="/Wedding/menu3/">menu 3</a></p>
+<li><p><a href="/menu3/">menu 3</a></p>
 </li>
 </ul>
 <h2 id="references_not_really"><a href="#references_not_really" class="header-anchor">References &#40;not really&#41;</a></h2>
@@ -167,18 +167,18 @@ end</code></pre>
 <p>&#40;cf. <code>src/_html_parts/page_foot.html</code>&#41; which will then replace these braces with the content of a dictionary of variables at the key <code>fd_mtime</code>. This dictionary of variables is accessed locally by pages through <code>@def varname &#61; value</code> and globally through the <code>config.md</code> page via the same syntax.</p>
 <p>There&#39;s a few other such functions of the form <code>&#123;&#123;fname p₁ p₂&#125;&#125;</code> as well as support for conditional blocks. If you wander through the <code>src/_html_parts/</code> folder and its content, you should be able to see those in action.</p>
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Septimia Zenobia. Last modified: July 24, 2022.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Septimia Zenobia. Last modified: July 30, 2022.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
 </div><!-- CONTENT ENDS HERE -->
     
-        <script src="/Wedding/libs/katex/katex.min.js"></script>
-<script src="/Wedding/libs/katex/contrib/auto-render.min.js"></script>
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/contrib/auto-render.min.js"></script>
 <script>renderMathInElement(document.body)</script>
 
     
     
-        <script src="/Wedding/libs/highlight/highlight.min.js"></script>
+        <script src="/libs/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();hljs.configure({tabReplace: '    '});</script>
 
     
