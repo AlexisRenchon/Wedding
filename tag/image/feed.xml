@@ -9,14 +9,14 @@
 
   <channel>
     <title>
-      <![CDATA[  Franklin Template  ]]>
+      <![CDATA[  Ceara and Alexis wedding  ]]>
     </title>
-    <link> https://tlienart.github.io/FranklinTemplates.jl/ </link>
+    <link> https://cearaandalexis.com </link>
     <description>
-      <![CDATA[  Example website using Franklin  ]]>
+      <![CDATA[  Wedding of Ceara and Alexis  ]]>
     </description>
     <atom:link
-      href="https://tlienart.github.io/FranklinTemplates.jl/feed.xml"
+      href="https://cearaandalexis.com/feed.xml"
       rel="self"
       type="application/rss+xml" />
 
@@ -35,7 +35,7 @@
   
   
   <atom:author>
-    <atom:name>Septimia Zenobia</atom:name>
+    <atom:name>Ceara and Alexis</atom:name>
   </atom:author>
         
 </item>
