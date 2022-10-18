@@ -1,3 +1,5 @@
 @def title = "Gift registry"
 
+# In lieu of gifts...
+
 With our upcoming move to California, we respectfully request that guests contribute to our honeymoon in Iceland instead of giving physical gifts. On the wedding day we will have opportunities to contribute to specific aspects of our honeymoon, which can be done with money in a card or virtually. 
