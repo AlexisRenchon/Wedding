@@ -7,9 +7,8 @@ Braine-L'Alleud, Belgium.
 
 # Dress code
 
-Formal (think suits, long dresses)
+Please wear formal attire (e.g., suits, long dresses)
 
 # Itinerary
 
-Event 1: time\
-Event 2: time
+Details to come.
