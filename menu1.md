@@ -1,3 +1,5 @@
+@def title = "Wedding day"
+
 # Location
 
 Details to come.\

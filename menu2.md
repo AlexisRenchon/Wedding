@@ -1,3 +1,5 @@
+@def title = "Travel"
+
 # Hotel
 We have worked with a hotel in Waterloo, Belgium to obtain a limited number of discounted rooms for guests. We recommend that guests stay here the night before and the night of the wedding. We will provide transportation to and from the wedding for guests staying at or near this hotel. This hotel is easily accessible via train from Brussels Airport. Please ask Ceara or Alexis for details and booking information. 
 
