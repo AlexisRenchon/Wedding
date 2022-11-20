@@ -62,10 +62,10 @@ html {
 .page-foot {
   font-size: 80%;
   font-family: Arial, serif;
-  color: #a6a2a0;
+  color: #FFE2B4;
   text-align: center;
   margin-top: 6em;
-  border-top: 1px solid lightgrey;
+  border-top: 0px solid #FFE2B4;
   padding-top: 2em;
   margin-bottom: 4em;
 }
@@ -84,6 +84,7 @@ html {
   padding-left: 12.5%;
   padding-right: 12.5%;
   line-height: 1.35em;
+  text-align: center;
 }
 
 /* On wide screens, fix content width to a max value. */
@@ -117,19 +118,19 @@ h3,
 h4,
 h5,
 h6 {
-  text-align: left;
+  text-align: center;
 }
 
 .franklin-content h1 {
   padding-bottom: 0.5em;
-  border-bottom: 3px double lightgrey;
+  border-bottom: 3px double #FFE2B4;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
 .franklin-content h2 {
   padding-bottom: 0.3em;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #FFE2B4;
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -163,6 +164,7 @@ td {
   font-size: var(--small);
   padding: 10px;
   border: 1px solid black;
+  text-align: center;
 }
 
 .franklin-content blockquote {
@@ -217,7 +219,7 @@ td {
 td {
   padding: 0;
   border: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .franklin-content .fndef tr {
