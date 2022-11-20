@@ -1,0 +1,14 @@
+@def title = "Ceara and Alexis"
+
+
+~~~
+<div class="row">
+  <div class="container">
+    <img class="center" src="/assets/websitehomepage.png">
+    <div style="clear: both"></div>      
+  </div>
+</div>
+~~~
+
+
+Welcome to our wedding website!
