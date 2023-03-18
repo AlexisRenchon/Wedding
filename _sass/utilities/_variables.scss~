@@ -11,28 +11,28 @@ $font-size-mobile: 15px;
 $code-font-stack: 'Source Code Pro', monospace;
 
 // Body
-$body-text-color: #FFE2B4;
-$body-background-color: #162818;
-$body-top-border-color: #FFE2B4;
+$body-text-color: #fbfffc;
+$body-background-color: #042b39;
+$body-top-border-color: #fbfffc;
 $body-top-border-width: 5px;
 
 // Links
-$link-color: #FFE2B4;
+$link-color: #fbfffc;
 
 // Navigation
-$nav-bottom-border-color: #FFE2B4;
+$nav-bottom-border-color: #fbfffc;
 $nav-bottom-border-width: 1px;
 
-$nav-link-color: #FFE2B4;
+$nav-link-color: #fbfffc;
 $nav-link-padding-y: 0.7rem;
 $nav-link-padding-x: 1.5rem;
-$nav-link-underline-color: #FFE2B4;
+$nav-link-underline-color: #fbfffc;
 
 $nav-icon-color: #ffffff;
 $nav-icon-background-color: #0A3b76;
 
 // Blog post headings and page titles
-$post-title-color: #FFE2B4;
+$post-title-color: #fbfffc;
 $post-date-color: #9a9a9a;
 
 // Message box
