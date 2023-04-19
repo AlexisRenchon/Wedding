@@ -1,4 +1,4 @@
-@def title = "Wedding day"
+@def title = "Wedding Day"
 
 # Location
 

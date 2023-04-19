@@ -1,4 +1,4 @@
-@def title = "Gift registry"
+@def title = "Gift Registry"
 
 # In lieu of gifts...
 
